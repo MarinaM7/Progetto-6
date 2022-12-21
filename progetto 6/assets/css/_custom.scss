@@ -1,0 +1,93 @@
+body{
+    font-weight: 300;
+}
+
+nav {
+    box-shadow: 2px 2px 10px gray;
+    background-color: #7835f9;
+    position: fixed;
+    font-weight: 500;
+    i{
+        font-size: 18pt;
+    }
+    .nav-link {
+        color: red;
+        &:hover{
+            color:white;
+        }
+    }
+}
+
+.btn {
+    background-color: #7835f9;
+    color: white;
+    &:hover{
+        @extend .btn
+    }
+}
+
+#sfondo {
+    margin-top: 55px;
+    background-image: url(../img/pexels-aleksandar-pasaric-325185.jpg);
+    background-position-y: 28cm;
+    height: 550px;
+}
+
+h1{
+    font-size: 45pt;
+}
+@media screen and (max-width:992px) {
+    h1{
+        font-size: 35pt;
+    }
+}
+
+h1,h2,h3 {
+    font-weight: 200;
+}
+
+h2{
+    font-size: 35pt;
+}
+
+#tableP{
+    background-color: #F5F5F5;
+}
+
+#table3 {
+    position: relative;
+    i{
+        font-size: 30pt;
+    }
+    h3{
+        font-size: 25pt;
+    }
+    .col-lg-4{
+        z-index: 10;
+    }
+}
+
+#loghi img {
+    width: 8em;
+}
+
+.carousel {
+    line-height: 2;
+    img {
+    width: 80px;
+    border-radius: 50%;
+    }
+    i {
+        color: red;
+        font-size: 18pt;
+    }
+}
+
+h4{
+    font-weight: 300;
+}
+
+footer {
+    background-color: #7835f9;
+    color: white;
+}
